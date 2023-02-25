@@ -43,8 +43,8 @@
     margin: 0 15px;
     cursor: pointer;
     &:hover {
-      box-shadow: 3px 3px 10px #0d0d0d;
-      transition: 0.4s all;
+      box-shadow: 3px -1px 10px #0d0d0d;
+      transition: 0.5s all;
     }
     img {
       height: 27px;

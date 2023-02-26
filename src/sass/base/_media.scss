@@ -229,9 +229,10 @@
   }
   .overlay {
     .modal {
+      width: 330px;
       &__close {
         top: 10px;
-        right: 40px;
+        right: 15px;
         font-size: 30px;
       }
       &__subtitle {
@@ -239,6 +240,9 @@
       }
       &__descr {
         font-size: 12px;
+      }
+      .feed-form {
+        width: 250px;
       }
     }
   }

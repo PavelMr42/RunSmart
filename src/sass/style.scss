@@ -1,5 +1,4 @@
 @import "base/variables";
-@import "base/media";
 * {
   font-family: 'Museo Sans Cyrl', sans-serif;
   margin: 0;
@@ -21,3 +20,4 @@
 @import "blocks/feed";
 @import "blocks/footer";
 @import "blocks/modal";
+@import "base/media";

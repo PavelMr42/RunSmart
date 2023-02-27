@@ -120,6 +120,11 @@
     &__tab div {
       font-size: 15px;
     }
+    &-item {
+      &__descr {
+        padding: 0 10px;
+      }
+    }
     &__content {
       margin-top: 20px;
     }
@@ -204,17 +209,17 @@
     &__tab {
       margin-top: 5px;
     }
-    &-item__old-price {
-      font-size: 10px;
-    }
-    &-item__price {
-      font-size: 15px;
-    }
-    &-item__descr {
-      padding: 0 20px;
-    }
     &-item {
       margin: 8px 0;
+      &__old-price {
+        font-size: 10px;
+      }
+      &__price {
+        font-size: 15px;
+      }
+      &__descr {
+        padding: 0 20px;
+      }
     }
   }
   .feed {

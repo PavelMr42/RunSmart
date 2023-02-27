@@ -211,15 +211,22 @@
       font-size: 15px;
     }
     &-item__descr {
-      font-size: 13px;
+      padding: 0 20px;
     }
     &-item {
-      margin: 8px 0px;
+      margin: 8px 0;
     }
   }
   .feed {
+    &__img {
+      width: 150px;
+      height: 150px;
+    }
     .title {
       font-size: 20px;
+    }
+    &__descr {
+      font-size: 12px;
     }
   }
   .footer {

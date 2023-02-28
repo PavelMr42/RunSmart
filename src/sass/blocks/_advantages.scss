@@ -33,5 +33,10 @@
       color: #ff0000;
     }
   }
+  &__icon{
+    &_animated {
+      animation: heartbeat 1.6s ease infinite;
+    }
+  }
 }
 

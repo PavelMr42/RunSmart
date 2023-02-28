@@ -9,6 +9,7 @@
     <link rel="stylesheet" href="css/bootstrap-reboot.min.css">
     <link rel="stylesheet" href="css/font.css">
     <link rel="stylesheet" href="css/slick.css"/>
+    <link rel="stylesheet" href="css/animate.min.css">
     <link rel="stylesheet" href="css/style.min.css">
 </head>
 <body>
@@ -60,21 +61,21 @@
         <h2 class="title">НАШИ ПРЕИМУЩЕСТВА</h2>
         <div class="advantages__wrapper">
             <div class="advantages__item">
-                <img src="icon/advantages/cup_icon_1.png" alt="cup">
+                <img src="icon/advantages/cup_icon_1.png" alt="cup" class="advantages__icon">
                 <h3 class="advantages__subtitle">Делимся опытом</h3>
                 <div class="advantages__descr">Наши сотрудники всегда готовы поделиться своим опытом,
                     так как сами бегают полумарафоны, переплыли Босфор, готовятся к соревнованиям по триатлону!
                 </div>
             </div>
             <div class="advantages__item">
-                <img src="icon/advantages/heart_icon_2.png" alt="heart">
+                <img src="icon/advantages/heart_icon_2.png" alt="heart" class="advantages__icon advantages__icon_animated">
                 <h3 class="advantages__subtitle">Заботимся о здоровье</h3>
                 <div class="advantages__descr">Мы работаем для того,
                     чтобы Ваши занятия спортом шли на пользу Вашему здоровью и были в радость Вам и Вашим близким!
                 </div>
             </div>
             <div class="advantages__item">
-                <img src="icon/advantages/shoe_icon_3.png" alt="shoe">
+                <img src="icon/advantages/shoe_icon_3.png" alt="shoe" class="advantages__icon">
                 <h3 class="advantages__subtitle">Учим бегать</h3>
                 <div class="advantages__descr">Помогаем с обучением
                     правильной технике бега!
@@ -375,7 +376,7 @@
 <section class="feed">
     <div class="container">
         <h2 class="title">ОТЗЫВЫ КЛИЕНТОВ</h2>
-        <div class="feed__item">
+        <div class="feed__item  wow animate__animated animate__fadeInUpBig" data-wow-duration="1.5s" data-wow-delay="0.5s">
             <img src="img/reviews/inna_icon.png" class="feed__img" alt="irina">
             <div class="feed__text">
                 <div class="feed__subtitle">Ирина Иванченко</div>
@@ -390,7 +391,7 @@
                 </div>
             </div>
         </div>
-        <div class="feed__item">
+        <div class="feed__item wow animate__animated animate__fadeInUpBig"  data-wow-duration="1.5s" data-wow-delay="0.5s">
             <img src="img/reviews/ivan_icon.png" class="feed__img" alt="ivan">
             <div class="feed__text">
                 <div class="feed__subtitle">Иван Сёмочкин</div>
@@ -405,7 +406,7 @@
                 </div>
             </div>
         </div>
-        <div class="feed__item">
+        <div class="feed__item wow animate__animated animate__fadeInUpBig"  data-wow-duration="1.5s" data-wow-delay="0.5s">
             <img src="img/reviews/julia_icon.png " class="feed__img" alt="julia">
             <div class="feed__text">
                 <div class="feed__subtitle">Юлия Дашкина</div>
@@ -479,6 +480,7 @@
 <script type="text/javascript" src="js/slick.min.js"></script>
 <script src="js/jquery.validate.min.js"></script>
 <script src="js/jquery.maskedinput.min.js"></script>
+<script src="js/wow.min.js"></script>
 <script src="js/script.js"></script>
 </body>
 </html>

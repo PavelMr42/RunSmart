@@ -49,6 +49,9 @@
       width: 100%;
     }
   }
+  .pageup {
+    bottom: 287px;
+  }
 }
 @media (max-width: 767px) {
   .promo {
@@ -152,6 +155,9 @@
     &__descr {
       font-size: 14px;
     }
+  }
+  .pageup {
+    bottom: 287px;
   }
 }
 @media (max-width: 575px) {
@@ -259,5 +265,9 @@
         width: 250px;
       }
     }
+  }
+  .pageup {
+    bottom: 280px;
+    right: 20px;
   }
 }
